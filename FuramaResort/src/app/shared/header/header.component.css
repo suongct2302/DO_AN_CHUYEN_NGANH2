@@ -1,0 +1,9 @@
+.nav-custom {
+  padding-top: 10px;
+  padding-bottom: 12px;
+  font-size: 18px;
+  background-color: #046056;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}

@@ -1,0 +1,117 @@
+<!--nếu tạo trong cái usser á, thì thêm link trong user-routing, à, chuyển trang thì k dùng href mà dùng routerLinhk-->
+
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+</head>
+<body>
+<div class="slide-bar">
+      <div class="item active">
+        <img src="../assets/img/Vietnam_Danang_Furama_Resort_Exterior-Courtyard-Ocean-Pool.jpg" alt="Los Angeles" style="width:100%;">
+        <div class="carousel-caption">
+          <h1 style="    color: WHITE;">Loại Phòng</h1>
+          <h4 style="    color: WHITE;">Luôn là sự lựa chọn tốt nhất !</h4>
+        </div>
+      </div>
+</div><br>
+
+  <div class="container">
+    <div class="background" >
+      <div class="row">
+        <div class="col-4">
+          <div class="card" style="width:400px">
+            <img class="card-img-top" src="https://furamavietnam.com/wp-content/uploads/2018/03/%5E224942630D3A5A787C2989A9F5AF4A3E34E6A8CAE8D94FA3D4%5Epimgpsh_fullsize_distr-1047x563.jpg" alt="Card image" style="width:100%;height: 60%">
+            <a [routerLink]="['/details-room']"  class="btn btn-primary">Xem thêm</a>
+            <div class="card-body">
+              <h4 class="card-title">PHÒNG SUITE HƯỚNG BIỂN</h4>
+              <p class="card-text">Diện Tích Phòng: 85.8 m2</p>
+              <a href="#" class="btn btn-primary stretched-link">Đặt Phòng</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card" style="width:400px">
+            <img class="card-img-top" src="https://furamavietnam.com/wp-content/uploads/2018/03/%5E224942630D3A5A787C2989A9F5AF4A3E34E6A8CAE8D94FA3D4%5Epimgpsh_fullsize_distr-1047x563.jpg" alt="Card image" style="width:100%;height: 60%">
+            <a [routerLink]="['/details-room']" class="btn btn-primary" >Loại phòng</a>
+            <div class="card-body">
+              <h4 class="card-title">PHÒNG SUITE HƯỚNG BIỂN</h4>
+              <p class="card-text">Diện Tích Phòng: 85.8 m2</p>
+              <a href="#" class="btn btn-primary stretched-link">Đặt Phòng</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card" style="width:400px">
+            <img class="card-img-top" src="https://furamavietnam.com/wp-content/uploads/2018/03/%5E224942630D3A5A787C2989A9F5AF4A3E34E6A8CAE8D94FA3D4%5Epimgpsh_fullsize_distr-1047x563.jpg" alt="Card image" style="width:100%;height: 60%">
+            <a [routerLink]="['/details-room']" class="btn btn-primary">Xem thêm</a>
+            <div class="card-body">
+              <h4 class="card-title">PHÒNG SUITE HƯỚNG BIỂN</h4>
+              <p class="card-text">Diện Tích Phòng: 85.8 m2</p>
+              <a href="#" class="btn btn-primary stretched-link">Đặt Phòng</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="caption-cosovatchat">
+        <h2  class="vc_custom_heading">DỊCH VỤ &amp; CƠ SỞ VẬT CHẤT</h2>
+        <p style="text-align: center;">Có nhiều những gói nghỉ dưỡng phù hợp cho cả những kỳ nghỉ ngắn hay dài ngày</p>
+
+      </div>
+
+
+      <div class="slide-bar">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://furamavietnam.com/wp-content/uploads/2018/10/FRD_Airport_Staff_Service_-2.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>DỊCH VỤ ĐÓN TIỄN SÂN BAY</h3>
+                <p style="float: none; position: static;">Tận hưởng những sự thoải mái, tiện lợi và hoàn hảo ngay từ những giây phút đầu tiên của kỳ nghỉ khi hạ cánh tại Sân bay Quốc tế Đà Nẵng với dịch đón tiễn sân bay chuyên nghiệp, thân thiện và sang trọng từ Khu nghỉ. Có nhiều lựa chọn phù hợp với nhu cầu di chuyển từ một người cho đến cả gia đình hay du lịch nhóm. Vui lòng liên hệ: +84 236 3847 333/ +84 236 3847 888 để đặt dịch vụ.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://furamavietnam.com/wp-content/uploads/2018/10/DSC_5851.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+
+                <h3>DỊCH VỤ VĂN PHÒNG</h3>
+                <p style="float: none; position: static;">Nằm tại sảnh đón khách của Khu nghỉ mát Furama Resort Đà Nẵng, Trung Tâm Dịch Vụ Văn Phòng cung cấp nhiều dịch vụ và thiết bị văn phòng cũng như nhu cầu thông tin cần thiết cho Qúy khách bao gồm in ấn, quét và sao lưu tài liệu, thư tín, chuyển phát, fax cũng như nhiều dịch vụ trợ giúp khác bao gồm khu vực máy tính để bàn kết nối internet miễn phí. Gọi hội đàm, hội thảo kết nối video có thể được sắp xếp dựa trên yêu cầu.</p>
+
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://furamavietnam.com/wp-content/uploads/2018/10/Shuttle_Bus_Furama_Danang-1.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>XE BUÝT DỊCH VỤ THEO LỊCH TRÌNH CÓ SẴN</h3>
+                <p style="float: none; position: static;" data-lg-trunk="4" data-md-trunk="3">Khu nghỉ có dịch vụ xe đưa đón tham quan phố cổ Hội An theo lịch trình hàng ngày với xe buýt 29 chỗ thoải mái, thuận tiện và an toàn.</p>
+              </div>
+            </div>
+
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script></body>
+
